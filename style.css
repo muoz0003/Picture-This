@@ -38,3 +38,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (max-width: 960px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
